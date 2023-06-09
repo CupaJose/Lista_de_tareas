@@ -1,0 +1,65 @@
+.list-group{
+    width: 50%;
+    height: 7rem;
+    position: relative;
+    top: 7rem;
+    left: 25%;
+    overflow: auto;
+}
+#Agregar-tarea{
+    width: 50%;
+    height: 17rem;
+    position: relative;
+    top: 2rem;
+    left: 25%;
+    background-color: rgba(185, 23, 23, 0.678);
+}
+#Limpiar{
+    background-color: #ffffff;
+    width: 10rem;
+}
+#Agregar{
+    background-color: #ffffff;
+    width: 10rem;
+}
+#Agregar:hover{
+    background-color: #00ff00;
+    transform: scale(1.2);
+}
+#Limpiar:hover{
+    background-color: #0000ff;
+    transform: scale(1.2);
+}
+#enviar{
+    display: flex;
+    justify-content: space-evenly;
+}
+#Formulario{
+    width: 90%;
+    position: relative;
+    top: 1rem;
+    left: 5%;
+}
+h1{
+    position: relative;
+    top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+@media screen AND (max-width: 1000px){
+    #Agregar-tarea{
+        width: 80%;
+        height: 17rem;
+        position: relative;
+        top: 5rem;
+        left: 10%;
+        background-color: rgba(185, 23, 23, 0.678);
+    }
+}
+#Tareas{
+    position: relative;
+    top: 7rem;
+}
+#Area_tareas{
+    height: 200px;
+}
