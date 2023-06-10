@@ -1,6 +1,6 @@
 .list-group{
     width: 50%;
-    height: 7rem;
+    height: 15rem;
     position: relative;
     top: 7rem;
     left: 25%;
@@ -60,6 +60,11 @@ h1{
     position: relative;
     top: 7rem;
 }
-#Area_tareas{
-    height: 200px;
+#tareas-hacer{
+    width: 50%;
+    height: 3rem;
+    position: relative;
+    left: 25%;
+    top: 6.5rem;
+    font-size: x-large;
 }
